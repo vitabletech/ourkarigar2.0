@@ -1,0 +1,197 @@
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --accent-color: #ffc107;
+    --dark-color: #212529;
+    --light-color: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.navbar-brand span {
+    color: var(--accent-color);
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1581092160607-ee22731cc60d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    position: relative;
+}
+
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.about-section {
+    background-color: #f8f9fa;
+}
+
+.counter-box {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.counter-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin: 15px;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.gallery-img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.03);
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: var(--accent-color);
+}
+
+.floating-contact {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.floating-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.floating-btn:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+}
+
+.call-btn {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.service-list li {
+    margin-bottom: 10px;
+}
+
+.service-list i {
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+
+.section-title {
+    position: relative;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 60px;
+    height: 4px;
+    background-color: var(--accent-color);
+}
+
+.section-title.text-center::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-primary {
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+.experience-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--accent-color);
+    color: var(--dark-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    z-index: 10;
+}
