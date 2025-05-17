@@ -55,9 +55,12 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero-banner.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
     color: white;
-    padding: 100px 0;
-    position: relative;
 }
 
 .service-card {
