@@ -5,7 +5,38 @@
     --dark-color: #212529;
     --light-color: #f8f9fa;
 }
+ @media (max-width: 576px) {
+  .icon-box {
+    width: 60px;
+    height: 60px;
+  }
 
+  .icon-box i {
+    font-size: 22px;
+  }
+}
+
+.icon-box {
+    width: 80px;
+    height: 80px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icon-box:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.icon-box i {
+    font-size: 28px;
+}
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
