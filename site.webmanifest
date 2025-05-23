@@ -1,0 +1,20 @@
+{
+    "name": "OurKarigar - Electronics Repair Services",
+    "description": "OurKarigar is a platform that connects users with local technicians for electronics repair services. We provide a seamless experience for booking and managing repair requests.",
+    "short_name": "OurKarigar",
+    "icons": [
+        {
+            "src": "/favicon_io/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon_io/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffc107",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
